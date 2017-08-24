@@ -1,0 +1,95 @@
+body{
+  background-image: url("img/main-bg.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  font-family: Arial;
+  color: white;
+}
+
+.menu{
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.dontshow{
+  display: none;
+
+}
+
+#hamburger{
+  width: 40px;
+  height: 40px;
+}
+
+#fb{
+  width: 40px;
+  height: 40px;
+}
+
+#twitter{
+  width: 40px;
+  height: 40px;
+}
+
+/*.social{
+  margin-left:80%;
+}*/
+
+.portfolio{
+text-align: center;
+/*display: flex;
+flex-direction: column;*/
+margin-top: 300px;
+}
+h1{
+  font-size: 100px;
+}
+
+
+.arrow{
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  text-align: center;
+}
+
+
+button{
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  font-size: 50px;
+  color: gray;
+  background-color: white;
+}
+
+@media (max-width: 1000px) {
+.dontshow{
+  display: flex;
+  /*justify-content: flex-end;*/
+}
+.social{
+  /*display: flex;
+  justify-content: space-between;*/
+margin-left: 75%;
+
+
+}
+
+#twitter{
+  margin-left: 40px;
+}
+.menu{
+  display:none;
+}
+}
